@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>NV-Equips</title>
+  <link rel="icon" href="../Images/logo.jpg" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <link rel="stylesheet" type="text/css" href="../Scripts/styler.css">
+  <link rel="stylesheet" type="text/css" href="Scripts/d_contact_us.css">
+  <link rel="stylesheet" href="../Scripts/css/bootstrap.min.css">
+  <script src="../Scripts/jquery.js"></script>
+  <script src="../Scripts/js/bootstrap.min.js"></script>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      height: 550px;
+      margin: auto;
+  }
+  </style>
+  <script type="text/javascript">
+  function myFunc() {
+    	myVar = setTimeout(showPage, 1500);
+		}
+		function showPage() {
+  		document.getElementById("loader").style.display = "none";
+  		document.getElementById("myBody").style.display = "block";
+  		document.body.className = "w3-light-grey";
+		}
+  $(document).ready(function() {
+    $('.carousel').carousel({
+      interval: 1500
+    })
+  });
+ </script>
+</head>
+<body class="w3-light-grey" onload="myFunc()">
+<div id="loader">
+  <div class="cssload-container">
+  <div class="cssload-l">L</div>
+  <div class="cssload-circle"></div>
+  <div class="cssload-square"></div>
+  <div class="cssload-triangle"></div>
+  <div class="cssload-i">I</div>
+  <div class="cssload-n">N</div>
+  <div class="cssload-g">G</div>
+  </div>
+</div>
+	<div style="display:none;" id="myBody" class="animate-bottom">
+		<header class="w3-cyan">
+			<br />
+			<nav>
+      <ul class="w3-navbar w3-white w3-large my-nav">
+          <li><a href="d_home.html">Home</a></li>
+          <li><a href="d_amc.html">Services and AMC</a></li>
+          <li><a href="d_products.html">Our Products</a></li>
+          <li><a href="d_terms_and_conditions.html">Terms & Conditions</a></li>
+          <li><a href="d_about_us.html">About Us</a></li>
+          <li><a class="active" href="#">Contact Us</a></li>
+      </ul>
+      </nav>
+			<div class="myName" style="color:white;  font-size:350%; text-align:left; padding-left:2%">
+      <span style="border:5px solid white; padding-left:1%; padding-right:1%;">
+      NV-Equips
+      </span>
+      </div>
+			<br />
+		</header>
+		<content>
+    <div class="arrivals">
+  <header>
+    <br />
+    <div class="label" style="color:black;font-size:250%; text-align:left; padding-bottom:5px; 
+    padding-left:2%">
+    Contact Us</div>
+  </header>
+  <br />
+  <content class="mylist">
+    <br />
+    <ol>
+      <li><b style="font-size:100%; color:rgba(0,0,0,0.6);">Enquiry on products:</b>
+      <a href="mailto:info@nv-equips.com?subject=enquiries and clarificatons&body=Contact us for any clarifications Ph:+91 9900930516/ 9972333223%0D%0A%0D%0A%0D%0A">info@nv-equips.com</a>
+      </li><br />
+      <li><b style="font-size:100%; color:rgba(0,0,0,0.6);">Customer Support:</b>
+      <a href="mailto:techsupport@nv-equips.com?subject=technical help&body=Contact us for any clarifications Ph:+91 9900930516/ 9972333223%0D%0A%0D%0A%0D%0A">techsupport@nv-equips.com</a>
+      </li><br />
+      <li><b style="font-size:100%; color:rgba(0,0,0,0.6);">Phone No:</b>
+      <span style="color:#337ab7;">+91 9900930516 / 9972333223</span>
+      </li><br />
+    </ol>
+    <br /><br /><br />
+     <center><span class="w3-text-red" style="font-size:120%;" ><b>**Regarding Services and AMC please contact us through Phone</b></span></center>
+  </content>
+  </div>
+	</content>
+	<footer>
+		<center>All copyrights reserved by NV-Equips &copy;<br /> 
+		Please read <a href="d_terms_and_conditions.html" style="color:white;">terms & conditions</a> for any clarificatons</center>
+	</footer>	
+	</div>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>NV-Equips</title>
+  <link rel="icon" href="../Images/logo.jpg" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta name="description" content="biotechnical equipments">
+  <meta name="keywords" content="NV-Equips,NV Equips,biotechnical equipments">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <link rel="stylesheet" type="text/css" href="../Scripts/styler.css">
+  <link rel="stylesheet" type="text/css" href="Scripts/d_terms_and_conditions.css">
+  <link rel="stylesheet" href="../Scripts/css/bootstrap.min.css">
+  <script src="../Scripts/jquery.js"></script>
+  <script src="../Scripts/js/bootstrap.min.js"></script>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      height: 550px;
+      margin: auto;
+  }
+   #loader {
+  position: absolute;
+  left: 49%;
+  top: 47%;
+  }
+  </style>
+  <script type="text/javascript">
+  function myFunc() {
+      myVar = setTimeout(showPage, 1500);
+    }
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myBody").style.display = "block";
+      document.body.className = "w3-light-grey";
+    }
+  $(document).ready(function() {
+    $('.carousel').carousel({
+      interval: 1000
+    })
+  });
+  function w3_open() {
+      document.getElementById("mySidenav").style.display = "block";
+  }
+  function w3_close() {
+      document.getElementById("mySidenav").style.display = "none";
+  }
+</script>
+ </script>
+</head>
+<body class="w3-light-grey" onload="myFunc()">
+<div id="loader">
+  <div class="cssload-container">
+  <div class="cssload-l">L</div>
+  <div class="cssload-circle"></div>
+  <div class="cssload-square"></div>
+  <div class="cssload-triangle"></div>
+  <div class="cssload-i">I</div>
+  <div class="cssload-n">N</div>
+  <div class="cssload-g">G</div>
+  </div>
+</div>
+  <div style="display:none;" id="myBody" class="animate-bottom">
+    <nav class="w3-sidenav w3-collapse w3-white w3-card-2 w3-animate-right" style="width:220px;right:0;
+    padding-left:3%; z-index:20; padding-right:3%;" 
+    id="mySidenav">
+      <br />
+      <a style="font-size:150%; border-bottom:1px solid grey" href="d_home.html">Home</a>
+      <a style="font-size:150%; border-bottom:1px solid grey" href="d_amc.html">Services and AMC</a>
+      <a style="font-size:150%; border-bottom:1px solid grey" href="d_products.html">Our Products</a>
+      <a style="font-size:150%; border-bottom:1px solid grey" class="w3-text-orange" href="#">Terms & Conditions</a>
+      <a style="font-size:150%; border-bottom:1px solid grey" href="d_about_us.html">About Us</a>
+      <a style="font-size:150%; border-bottom:1px solid grey" href="d_contact_us.html">Contact Us</a>
+      <br /><br /><br /><br />
+      <center> NV-Equips.com &copy;</center>
+    </nav>
+    <div id="main">
+      <header class="w3-container w3-cyan">
+        <span class="w3-opennav w3-xlarge" style="float:right; color:white; margin-top:1%; margin-bottom:3%;" onclick="w3_open()" id="openNav"><img src="../Images/menu.gif" width="25"></span>
+        <!--<div class="myName" style="color:white; font-size:170%; text-align:left; padding-top:3%;">
+          <span style="border:2px solid white; padding-left:1%; padding-right:1%;">
+          NV-Equips
+          </span> 
+        </div>-->
+        <img src="../Images/logo_h.jpg" width="120" style="padding-top:2%;">   
+      </header>
+      <div onclick="w3_close()">
+<!--*****************************************body************************************************************-->
+   <div style="color:red; font-size:160%; padding-left:5%; padding-top:15px;
+   padding-bottom:15px; text-align:left; ">
+    <b>Terms and conditions</b></div>
+    <content class="mylist">
+      <ol>
+      <li><b style="font-size:110%; color:black;">Prices:</b> Prices quoted in this catalouge are ex-stock, bangalore. Prices are valid up to 31
+      <sup>th</sup>March 2017. Packing, Forwarding and freight expenses will be extra at actual.</li><br />
+      <li><b style="font-size:110%; color:black;">Rate Contract:</b> To avail rate contract facility, please contact us.</li>
+      <li><b style="font-size:110%; color:black;">Services and AMC:</b> To avail Services and AMC facility, please contact us.</li><br />
+       <li><b style="font-size:110%; color:black;">Taxes:</b>
+       <ul style="list-style:square;">
+        <li>Exise duty: Our prices are inclusive of excise duty, education cess.</li>
+        <li>Central Sales Tax: will be changed as appicable. customers wish to avail any concession
+        on tax must provide necessary concession forms<br />
+        (Form C/D). In case of non availability of any forms, full amount of sales tax will be charged</li>
+         <li>Local sales Tax/Vat :Extra as applicable.</li>
+       </ul>
+       </li><br />
+    </ol><br /><br />
+    <center><span class="w3-text-red" style="font-size:90%; width:70%;" ><b>**Prices are subject to change depending on the market,<br /> please enquire to avail respective rates</b></span></center>
+    </content>
+<!--*****************************************body**end*******************************************************-->
+  <footer>
+    <center>All copyrights reserved by NV-Equips &copy;<br /> 
+    Please read <a href="d_terms_and_conditions.html" style="color:white;">terms & conditions</a> for any clarificatons</center>
+  </footer> 
+      </div>
+    </div>
+  </div>
+</body>
+</html>
